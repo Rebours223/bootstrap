@@ -1,0 +1,35 @@
+/* some media */
+@media screen and (max-width:767px){
+    .my_border{
+        margin:0 1rem; 
+    }
+    .my_top{
+        font-size:1.5rem;
+    }
+    .col{
+        border-bottom:1px dotted #979797;
+    }
+    a>h4{
+        font-size:1rem;
+    }
+}
+@media screen and (min-width:768px){
+    .my_border{
+        margin:0 5rem; 
+    }
+    .col{
+        border-left:1px dotted #979797;
+    }
+}
+.my_top{
+    text-align:center;
+}
+.my_border{
+    border-top:5px solid #4a2e68;
+}
+a>h4{
+    color:#e40012;
+}
+a:hover{
+    text-decoration:none;
+}

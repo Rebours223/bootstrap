@@ -1,0 +1,74 @@
+/* carousel */
+.carousel-indicators li{
+    border:1px solid #fff;
+    border-radius:50%;
+    width:15px;
+    height:15px;
+    margin:0 50px;
+}
+.carousel-indicators .active{
+    background:#f00;
+}
+.carousel-indicators{
+    bottom:160px;
+}
+/* some pictures */
+.my_jituan{
+    width:100%;
+    padding:0 10px;
+    background:linear-gradient(to bottom,#e6e6e6,#dbdbdb,#aba5a9);
+}
+.jituan{
+    margin:5vw 0 5vw 0;
+}
+.jituan>img{
+    display:block;
+    max-width:100%;
+    height:auto;
+}
+.col-img{
+    height: 28.6vw;
+    width: 100%;
+    cursor:pointer;
+    transition:all 0.6s;
+}
+.col-img:hover{
+    transform:scale(1.4);
+}
+.img-col1{
+    background:rgba(248, 43, 43, 0.8)
+}
+.img-col2{
+    background:rgba(76, 155, 65, 0.8)
+}
+.img-col3{
+    background:rgba(243, 173, 0, 0.8)
+}
+.img-col4{
+    background:rgba(244, 111, 42, 0.8)
+}
+.img-col5{
+    background:rgba(133, 61, 125, 0.8)
+}
+.row-img a{
+    display:inline-block;
+    height:25.5vw;
+    width:100%;
+    overflow:hidden;
+}
+.col>a>span{
+    position:absolute;
+    top:1px;
+    left:10px;
+    width:98%;
+    height:26vw;
+    padding:10px;
+}
+.col>a>span>h4{
+    font-size:12px;
+    color:#fff;
+}
+/* some hover */
+.img-col1:hover,.img-col2:hover,.img-col3:hover,.img-col4:hover,.img-col5:hover{
+    background:transparent;
+}

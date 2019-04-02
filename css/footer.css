@@ -1,0 +1,15 @@
+.my_footer_bg{
+    background:#35475e;
+    margin-top:1rem;
+}
+.my_footer_bg p{
+    color:white;
+    font-size:12px;
+    text-align:center;
+    margin-bottom:0.5rem;
+    padding-top:0.5rem;
+}
+.my_footer_bg p a{
+    color:white;
+    padding-left:1rem;
+}

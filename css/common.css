@@ -1,0 +1,28 @@
+*{
+    margin:0;padding:0;
+}
+.my_header{
+    height:5rem;
+    width:100%;
+}
+/* large-screen */
+@media screen and (min-width:992px){
+    .my_footer{
+        height:6rem;
+        width:100%;
+    }
+}
+/* middle-screen */
+@media screen and (max-width:992px) and (min-width:767px){
+    .my_footer{
+        height:10rem;
+        width:100%;
+    }
+}
+/* small-screen */
+@media screen and (max-width:767px){
+    .my_footer{
+        height:10rem;
+        width:100%;
+    }
+}

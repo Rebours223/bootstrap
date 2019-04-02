@@ -1,0 +1,21 @@
+/* some media */
+@media screen and (max-width:767px){
+    .row>.col-md-5>img{
+        width:40%;
+        margin:0 15rem;
+    }
+}
+@media screen and (min-width:768px){
+    .row>.col-md-5>img{
+        width:80%;
+        margin:0 3rem;
+    }
+}
+.row>.col-md-7>p:first-child{
+    color:#e40012;
+    font-size:24px;
+    transition:all 0.5s;
+}
+.my_top{
+    text-align:center;
+}
